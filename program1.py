@@ -33,3 +33,11 @@ def myPow(x: float, n: int) -> float:
         n //= 2
         
     return result
+
+
+arr = 2, 3, 4, 5, 6, 7
+target = 6
+print(f'List: {arr}')
+print(f'target: {target}')
+print(f'output of search function: {search(arr, target)}')
+print(f'output of mypow function: {myPow(4.5, 2)}')
